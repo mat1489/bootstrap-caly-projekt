@@ -213,21 +213,30 @@ p{
 
 /*style team poczatek*/
 
-.team-item{
-    margin: 0 auto;
-    position: relative;
+
+
+
+#team .team-member {
+    margin-bottom: 40px;
 }
 
-#team img{
+#team .team-member img {
+    max-height: 230px;
+}
+
+#team i{
     border-radius: 75px;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, 50%)
+    height: 50px;
+    width: 50px;
+    background-color: #222222;
+    line-height: 50px;
+    color: white;
 }
 
-
+#team i:hover{
+   
+    background-color: #0ed8d6;
+   
+}
 /*style team koniec*/
 
