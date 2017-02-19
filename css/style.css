@@ -108,19 +108,22 @@ body{
     padding: 20px;
 }
 
-#services-items .services-item div{
-    height: 150px;
-    width: 150px;
+#services i{
     background-color: #0ed8d6;
     border-radius: 75px;
-    margin: 0 auto;
-    margin-top: 35px;
-}
-#services i{
-    transform: translateY(50%);
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
     color: white;
+    margin-top: 50px;
+    
 }
 
+#services-items{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
 
 /*style services koniec*/
 
