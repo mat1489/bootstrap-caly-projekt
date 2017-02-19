@@ -4,6 +4,25 @@ body{
     color: #777777;
     margin: 0;
 }
+
+ h2 {
+    color: #333333;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
 /*style ogolne koniec*/
 
 /*style menu poczatek*/
@@ -93,20 +112,12 @@ body{
 
 /*style services poczatek*/
 
-#services h2 {
-    color: #333333;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding-top: 100px;
-}
+
 #services{
     text-align: center;
 }
 
-#services h3{
-    color: #333333;
-    padding: 20px;
-}
+
 
 #services i{
     background-color: #0ed8d6;
@@ -116,6 +127,12 @@ body{
     line-height: 80px;
     color: white;
     margin-top: 50px;
+    transition-duration: 2s; 
+}
+
+#services i:hover{
+    transform:rotateY(180deg);
+    
     
 }
 
@@ -127,6 +144,90 @@ body{
 
 /*style services koniec*/
 
+/*style portfolio poczatek*/
+.zdjecia{
+    width: 250px;
+    height: 150px;    
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+
+#zdjecie1{
+    background-image: url("../img/portfolio/chestnut_on_bracket.jpg");
+}
+
+#zdjecie2{
+    background-image: url("../img/portfolio/typing_on_laptop.jpg");
+}
+
+#zdjecie3{
+    background-image: url("../img/portfolio/child_with_blue_paint.jpg");
+}
+
+#zdjecie4{
+    background-image: url("../img/portfolio/chaotic_paint.jpg");
+}
+
+#zdjecie5{
+    background-image: url("../img/portfolio/house_with_blue_doors.jpg");
+}
+
+#zdjecie6{
+    background-image: url("../img/portfolio/box_of_cookies.jpg");
+}
+
+#portfolio{
+    background-color: #f7f7f7;
+    margin-top: 50px;
+    padding-bottom: 150px;   
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
+#portfolio h3{
+    font-size: 12px;
+    padding: 0;
+}
+
+#portfolio p{
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+
+#portfolio-items{
+    margin: 0 auto;
+    width: 75%;
+}
+
+.potfolio-item, .portfolio-item-content{
+    background-color: white;
+    width: 250px;
+    margin: 0 auto;
+   
+}
+/*style portfolio koniec*/
+
+
+/*style team poczatek*/
+
+.team-item{
+    margin: 0 auto;
+    position: relative;
+}
+
+#team img{
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, 50%)
+}
+
+
+/*style team koniec*/
 
