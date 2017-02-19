@@ -1,24 +1,129 @@
+/*style ogolne poczatek*/
 body{
-    margin 0;
-    color:white;
-    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+    color: #777777;
+    margin: 0;
 }
-body > .container{
-    background-color: red;
+/*style ogolne koniec*/
+
+/*style menu poczatek*/
+
+    #main-nav{
+
+        font-family: 'Montserrat', sans-serif;
+        background-color: transparent;
+    }
+
+    #main-nav {
+    background-color: transparent;
+    border: 0;
+    }
+
+    #main-nav a.navbar-brand {
+        font-size: 2em;
+        font-family:'Droid-Serif',sans-serif;
+        text-transform: none;
+    }
+
+    #main-nav a {
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        transition: all 0.3s;
+    }
+
+    #main-nav a:hover {
+        color: #0ed8d6;
+    }
+
+    #main-nav scroll {
+        background-color: #0ed8d6;
+    }
+
+    #main-nav .navbar-toggle {
+        color: #777777;
+        transition: all 0.3s;
+    }
+
+    #main-nav .navbar-toggle:hover {
+        background-color: #0ed8d6;
+    }
+
+/*style menu koniec*/
+
+
+
+/*style naglowek poczatek*/
+
+
+#main-header {
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    position: relative;
 }
 
-body > .container-fluid{
-    background-color: blue;
+#main-header .header-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
 }
 
-.column{
-    background-color: pink;
-    font-size: 16px;
-    margin-bottom: 10px;
+#main-header .header-caption h1 {
+    color: #fff;
+    margin: 45px 0;
+    font-size: 4em;
 }
 
-.column:nth-child(odd){
-    background-color: green;
+#main-header .header-caption h2 {
+    color: #fff;
+    font-family: 'Droid-Serif', sans-serif;
+    font-size: 1,5em;
 }
+
+#main-header .header-caption a {
+    color: #fff;
+}
+/*style naglowek koniec*/
+
+
+/*style services poczatek*/
+
+#services h2 {
+    color: #333333;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+#services{
+    text-align: center;
+}
+
+#services h3{
+    color: #333333;
+    padding: 20px;
+}
+
+#services-items .services-item div{
+    height: 150px;
+    width: 150px;
+    background-color: #0ed8d6;
+    border-radius: 75px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+#services i{
+    transform: translateY(50%);
+    color: white;
+}
+
+
+/*style services koniec*/
+
+
 
 
